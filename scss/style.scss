@@ -2,8 +2,9 @@
 @import "compass/reset";
 @import "compass/css3";
 @import "compass/utilities/sprites";
+$icone-layout: smart;
 @import "icone/*.png";
-
+@include all-icone-sprites(true);
 @font-face{
   font-family: 'avengers';
   src: url('../font/Avengers.ttf') format('truetype');
@@ -11,42 +12,6 @@
   font-style: normal;
 }
 
-.icon{
-  background-image: url("../img/icone-s6ea2d74b5b.png");
-  background-repeat: no-repeat;
-  width: 50px;
-  height: 50px;
-}
-
-.icon-chat{
-  @extend .icon;
-  background-position: 0 -50px;
-  &:hover{
-    background-position: 0 0px;
-  }
-}
-
-.icon-hand{
-  @extend .icon;
-  background-position: 0 -100px;
-  &:hover{
-    background-position: 0 -150px;
-  }
-}
-.icon-question{
-  @extend .icon;
-  background-position: 0 -200px;
-  &:hover{
-    background-position: 0 -250px;
-  }
-}
-.icon-user{
-  @extend .icon;
-  background-position: 0 -350px;
-  &:hover{
-    background-position: 0 -300px;
-  }
-}
 $title: 45px;
 $sub: 25px;
 $txt: 22px;
