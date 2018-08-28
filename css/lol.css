@@ -1,0 +1,105 @@
+
+
+
+
+/* MEDIA */
+
+@media (max-width: 1140px) {
+.home{
+  flex-wrap: wrap;
+}
+.home .box{
+  min-width: 50%;
+}
+
+.container{
+  height:80%;
+}
+.burger-menu {
+  width:50%;
+  margin-right: 15px;
+  display:flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.navbar{
+  display: none;
+}
+
+}
+
+@media (max-width: 780px){
+  .wrapper{
+    display: none;
+  }
+  .title{
+    display: flex;
+  }
+}
+
+@media (max-width: 680px){
+  p{
+    font-size: 18px;
+  }
+  footer{
+    color: white;
+  }
+  footer a{
+    color:white;
+  }
+}
+
+@media (max-width: 600px){
+  .title{
+  height: calc(54vh - 75px);
+  }
+  main.home{
+    height: calc(200vh - 200px);
+  }
+  .home .box{
+    min-width: 100%;
+  }
+  .logores{
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+  }
+  .logo{
+    display:none;
+  }
+
+}
+@media (max-width: 550px){
+  .sepa{
+    display: none;
+  }
+  .footbody{
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 480px){
+
+h1{
+  font-size: 40px;
+}
+}
+
+@media (max-width: 400px){
+h1{
+  font-size: 35px;
+}
+}
+@media (max-width: 350px){
+h1{
+  font-size: 30px;
+}
+}
+
+@media (max-width: 300px){
+h1{
+  font-size: 28px;
+}
+}

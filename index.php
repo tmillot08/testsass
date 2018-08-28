@@ -19,7 +19,7 @@
       <main class="home">
         <section class="learn box">
           <div class="container">
-          <h3  class="far fa-user"></h3>
+          <h3  class="icon-user"></h3>
           <p>Vous souhaitez</p>
           <h3>Apprendre ?</h3>
           <a href="#" class="buttonprolearn">Cliquez-ici</a>
@@ -28,7 +28,7 @@
         </section>
         <section class="project box">
         <div class="container">
-          <h3 class="far fa-comment-dots"></h3>
+          <h3 class="icon-chat"></h3>
           <p>Vous souhaitez</p>
           <h3>Proposer un Projet ?</h3>
           <a href="#" class="buttonprolearn">Cliquez-ici</a>
@@ -37,7 +37,7 @@
         </section>
         <section class="internship box">
           <div class="container">
-          <h3  class="far fa-handshake"></h3>
+          <h3  class="icon-hand"></h3>
           <p>Vous souhaitez</p>
           <h3>Engager Un Stagiare ?</h3>
           <a href="#" class="buttoninternhelp">Cliquez-ici</a>
@@ -46,7 +46,7 @@
         </section>
         <section class="help box">
           <div class="container">
-          <h3  class="far fa-question-circle"></h3>
+          <h3  class="icon-question"></h3>
           <p>Vous souhaitez</p>
           <h3>Nous Aider ?</h3>
           <a href="#" class="buttoninternhelp">Cliquez-ici</a>
